@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Rira.GrpcApp\\Loyalty.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Rira.ConspleApp\\Rira.ConspleApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

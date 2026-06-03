@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Loyalty.Api.Controllers.LoyaltyController",
+    "Method": "Calculate",
+    "RelativePath": "api/loyalty/calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.DTOs.CalculateScoreRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

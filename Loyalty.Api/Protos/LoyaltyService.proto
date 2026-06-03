@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Loyalty.Api";
+
+service LoyaltyService {
+  rpc CalculateScore (CalculateScoreGpcRequest) returns (CalculateScoreResponse);
+}
+
+message CalculateScoreGpcRequest {
+  double purchaseAmount = 1;
+  int32 customerType = 2;
+  repeated double monthlyPurchases = 3;
+}
+
+message CalculateScoreResponse {
+  double finalScore = 1;
+}
